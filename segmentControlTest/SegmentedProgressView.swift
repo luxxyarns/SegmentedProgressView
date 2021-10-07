@@ -1,9 +1,3 @@
-//
-//  SegmentedProgressBar.swift
-//  segmentControlTest
-//
-//  Created by Marco Nissen on 07.10.21.
-//
 
 import Foundation
 import UIKit

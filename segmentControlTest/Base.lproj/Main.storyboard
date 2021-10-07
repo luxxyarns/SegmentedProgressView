@@ -30,13 +30,7 @@
                                         <color key="value" systemColor="systemGrayColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="activeSegmentColor">
-                                        <color key="value" systemColor="systemPinkColor"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
-                                        <color key="value" systemColor="labelColor"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="activeTextColor">
-                                        <color key="value" systemColor="systemGroupedBackgroundColor"/>
+                                        <color key="value" systemColor="tintColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="activeIndex">
                                         <integer key="value" value="2"/>
@@ -66,9 +60,11 @@
                             <constraint firstItem="KMt-eQ-jYw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9os-tN-pyE"/>
                             <constraint firstItem="hCQ-lI-kHC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DXd-vf-zIp"/>
                             <constraint firstAttribute="trailing" secondItem="hCQ-lI-kHC" secondAttribute="trailing" constant="20" id="E5b-1V-DtT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hCQ-lI-kHC" secondAttribute="trailing" constant="20" id="Evr-tX-ovN"/>
                             <constraint firstAttribute="trailing" secondItem="KMt-eQ-jYw" secondAttribute="trailing" constant="20" id="IXc-fz-IyS"/>
                             <constraint firstItem="KMt-eQ-jYw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="gvz-fE-SSj"/>
                             <constraint firstItem="azy-wD-rrk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="ml9-hd-vht"/>
+                            <constraint firstItem="hCQ-lI-kHC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="azy-wD-rrk" secondAttribute="trailing" constant="8" symbolic="YES" id="qla-4E-RaW"/>
                             <constraint firstItem="azy-wD-rrk" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="tqR-p0-lJb"/>
                         </constraints>
                     </view>
@@ -84,20 +80,14 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemGroupedBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
